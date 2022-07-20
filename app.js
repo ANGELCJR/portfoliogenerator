@@ -5,7 +5,7 @@ const generatePage = (userName, githubName) => {
     GitHub: ${githubName}
   `;
 };
-console.log(generatePage(`name`, `github`));
+console.log(generatePage(name, github));
 const profileDataArgs = process.argv.slice(2);
 const name = profileDataArgs[0];
 const github = profileDataArgs[1];
